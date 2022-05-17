@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Gymify</title>
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="ENERGY LVLS">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img
+              src="https://cdn.glitch.global/ba89a50e-4f87-4a07-9c27-086b0b9860b2/gymifylogo-removebg-preview.png?v=1651341371281"
+              class="logo"
+              alt="logo"
+            />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#energyLevels" class="scroll-link">energy levels</a>
+              </li>
+              <li>
+                <a href="#stretch" class="scroll-link">stretches</a>
+              </li>
+              <li>
+                <a href="#dailyChallenge" class="scroll-link">daily remix</a>
+              </li>
+              <li>
+                <a href="#fitnessResource" class="scroll-link"
+                  >fitness resources</a
+                >
+              </li>
+              <li>
+                <a href="#logExercise" class="scroll-link">log exercise</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1 class="title">~ WELCOME TO GYMIFY ~</h1>
+          <h2>
+            <div class="mainImages">
+              <img
+                src="https://cdn.glitch.global/ba89a50e-4f87-4a07-9c27-086b0b9860b2/30_dumbell.png?v=1651337600650"
+                class="dumbell"
+                alt="dumbell"
+              />
+              <img
+                src="https://cdn.glitch.global/ba89a50e-4f87-4a07-9c27-086b0b9860b2/running.png?v=1651337604161"
+                class="shoe"
+                alt="shoe"
+              />
+              <img
+                src="https://cdn.glitch.global/ba89a50e-4f87-4a07-9c27-086b0b9860b2/yoga_5853506.png?v=1651337605795"
+                class="yoga"
+                alt="yoga"
+              />
+            </div>
+          </h2>
+
+          <button>
+            <a href="#energyLevels">let's get active!!</a>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- energy levels -->
+    <section id="energyLevels" class="section">
+      <div class="title">
+        <h2>💪 energy <span>levels 💪</span></h2>
+      </div>
+
+      <div class="energy-prompt">
+        It's been a long day. How energized do you feel right now?
+      </div>
+
+      <div class="energy-bar">
+        <label class="lowEnergy">low energy</label>
+        <button id="EB1" onclick="E1()">⚡</button>
+        <button id="EB2" onclick="E2()">⚡</button>
+        <button id="EB3" onclick="E3()">⚡</button>
+        <button id="EB4" onclick="E4()">⚡</button>
+        <button id="EB5" onclick="E5()">⚡</button>
+
+        <label class="highEnergy">high energy</label>
+      </div>
+
+      <div class="energy-advice-box">
+        <p id="energy-advice">Select an ⚡ to get personalized advice!</p>
+        <div class="energy-img">
+          <img
+            id="img"
+            src="https://cdn.glitch.global/ba89a50e-4f87-4a07-9c27-086b0b9860b2/peach4-removebg-preview.png?v=1651357275604"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- stretch -->
+    <section id="stretch" class="section">
+      <div class="strechTitle">
+        <h2>🤸 stretches 🧘‍♂️</h2>
+      </div>
+      <div class="strechSubTitle">
+        <h3>🤸 loosen up your body before you start exercising 🕺</h3>
+        <div class="stretchVids">
+          <iframe
+            class="stretch"
+            width="560"
+            height="420"
+            src="https://www.youtube.com/embed/L_xrDAtykMI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="stretch"
+            width="560"
+            height="420"
+            src="https://www.youtube.com/embed/g_tea8ZNk5A"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- daily remix --->
+    <section id="dailyChallenge" class="section">
+      <div class="dailyTitle">
+        <h2>🌼daily <span>remix🌼</span></h2>
+      </div>
+      <div class="dailyChallengeContent">
+        <div id="challenge-container">
+          <h2>✨Challenge of the Day✨</h2>
+          <button class="generateBtn" id="challenge-btn">
+            <a>GET CHALLENGE</a>
+          </button>
+          <div id="challenge-output">
+            Press the button to generate a new Daily Challenge!
+          </div>
+        </div>
+
+        <!-------------------------- music -------------------------->
+        <div class="Music">
+          <h2>🎵Music Player🎵</h2>
+          <div class="music-container" id="music-container">
+            <div class="music-info">
+              <h4 id="title"></h4>
+              <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+              </div>
+            </div>
+            <audio
+              src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059"
+              id="audio"
+            ></audio>
+            <div class="img-container">
+              <img
+                id="cover"
+                src="https://cdn.glitch.global/ba89a50e-4f87-4a07-9c27-086b0b9860b2/peaches.webp?v=1651364269900"
+                alt="peach"
+              />
+            </div>
+            <div class="navigation">
+              <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button id="play" class="action-btn-big">
+                <i class="fas fa-play"></i>
+              </button>
+              <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- FITNESS RESOURCES -------------------------->
+    <section id="fitnessResource" class="section">
+      <div class="titleResource">
+        <h2>📑fitness resources 📑</h2>
+      </div>
+      <div class="bodyGroupNames">
+        <h3>upper body</h3>
+        <h3>lower body</h3>
+        <h3>full body</h3>
+      </div>
+      <div class="bodyGroupVids">
+        <iframe
+          class="bodyVid"
+          width="340"
+          height="255"
+          src="https://www.youtube.com/embed/s5lVj49v-B4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="bodyVid"
+          width="340"
+          height="255"
+          src="https://www.youtube.com/embed/aCa8R9II8F0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="bodyVid"
+          width="340"
+          height="255"
+          src="https://www.youtube.com/embed/-YpRYNREDV8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="bodyGroupNames">
+        <h3>abs</h3>
+        <h3>cardio</h3>
+        <h3>calisthenics</h3>
+      </div>
+      <div class="bodyGroupVids">
+        <iframe
+          class="bodyVid"
+          width="340"
+          height="255"
+          src="https://www.youtube.com/embed/YSqdzrmJAlw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="bodyVid"
+          width="340"
+          height="255"
+          src="https://www.youtube.com/embed/VWj8ZxCxrYk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="bodyVid"
+          width="340"
+          height="255"
+          src="https://www.youtube.com/embed/sun3DOU99gg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-------------------------- LOG EXERCISE -------------------------->
+    <section id="logExercise" class="section">
+      <div class="title">
+        <h2>📜log exercise📜</h2>
+        <h3>
+          Use this space to organize all your accomplishments today.
+          <br />Remember that even small accomplishments can go a long way!🥰
+        </h3>
+      </div>
+      <div class="form-and-log">
+        <div class="form">
+          <h3>What did you do today?</h3>
+          <div class="form-input-submit">
+            <input type="text" id="exercise-input" name="exercise_completed" />
+            <button class="submitButton" type="submit" id="exercise-submit">
+              <a>SUBMIT</a>
+            </button>
+          </div>
+          <p id="error-text"></p>
+        </div>
+        <div class="log">
+          <h3>🤩Accomplishments🤩</h3>
+          <div class="log-content">
+            <p id="exercise-log-submissions"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- footer -------------------------->
+    <footer class="section">
+      <p class="footerText">
+        STAY ACTIVE. STAY MOTIVATED. STAY MOVING. <br />
+        STAY ON GYMIFY.
+      </p>
+      <div class="heartLogoImg">
+        <img
+          src="https://cdn.glitch.global/ba89a50e-4f87-4a07-9c27-086b0b9860b2/heartgymifylogo-removebg-preview.png?v=1651343633587"
+          class="heartLogo"
+          alt="heartLogo"
+        />
+      </div>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
